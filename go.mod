@@ -1,7 +1,6 @@
 module github.com/nkolentcev/fly_service_srv
 
 go 1.20
-
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -42,3 +41,4 @@ require (
 	gorm.io/driver/postgres v1.4.8 // indirect
 	gorm.io/gorm v1.24.5 // indirect
 )
+
