@@ -1,6 +1,8 @@
 package controllers
 
 import (
+	"fmt"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/nkolentcev/fly_services_srv/config"
 	"github.com/nkolentcev/fly_services_srv/internal/models"
@@ -9,6 +11,7 @@ import (
 
 func FindUserByPin(c *fiber.Ctx) error {
 	userPin := c.Params("userPin")
+	fmt.Println(userPin)
 	var user models.User
 	result := config.DB.First(&user, "personal_number = ?", userPin)
 
