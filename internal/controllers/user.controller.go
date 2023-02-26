@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/nkolentcev/fly_services_srv/config"
-	"github.com/nkolentcev/fly_services_srv/models"
+	"github.com/nkolentcev/fly_services_srv/internal/models"
 	"gorm.io/gorm"
 )
 
