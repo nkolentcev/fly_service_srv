@@ -1,6 +1,6 @@
 module github.com/nkolentcev/fly_service_srv
 
-go 1.19
+go 1.20
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
