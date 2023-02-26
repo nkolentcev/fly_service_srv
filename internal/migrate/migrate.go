@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/nkolentcev/fly_services_srv/config"
-	"github.com/nkolentcev/fly_services_srv/internal/models"
+	"github.com/nkolentcev/fly_service_srv/config"
+	"github.com/nkolentcev/fly_service_srv/internal/models"
 )
 
 func init() {

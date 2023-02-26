@@ -6,8 +6,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/nkolentcev/fly_services_srv/config"
-	"github.com/nkolentcev/fly_services_srv/internal/controllers"
+	"github.com/nkolentcev/fly_service_srv/config"
+	"github.com/nkolentcev/fly_service_srv/internal/controllers"
 )
 
 func init() {
