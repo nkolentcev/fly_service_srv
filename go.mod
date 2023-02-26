@@ -1,4 +1,4 @@
-module github.com/nkolentcev/fly_services_srv
+module github.com/nkolentcev/fly_service_srv
 
 go 1.19
 
